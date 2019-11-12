@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Lato:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,700&display=swap");
 :root {
   color-scheme: light dark;
 }
@@ -16,7 +16,7 @@ html, body {
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Fira Sans", sans-serif;
 }
 
 .background {
@@ -73,7 +73,7 @@ p {
 }
 .email-box input {
   border: none;
-  font-family: "Lato", sans-serif;
+  font-family: "Fira Sans", sans-serif;
   width: 25rem;
   height: 3rem;
   font-size: 1rem;
