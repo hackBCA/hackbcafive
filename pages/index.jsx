@@ -71,7 +71,7 @@ export default function Index() {
                     <h1>hackBCA V</h1>
                     <p><strong>Rise from the ashes.</strong> February 13-14, 2020 @ BCA.</p>
                     {/* <p><Button href="/whatis" variant="dark">What's hackBCA? <ChevronRight /></Button></p> */}
-                    <p><Link href="/register"><Button as="a" variant="primary">How to register <ChevronRight /></Button></Link></p>
+                    <p><Link href="/register"><a className="btn btn-primary">How to register <ChevronRight /></a></Link></p>
                     <ul className="navigation-ul fa-ul">
                         {/* <li>
                             <Link href="/sponsor">
