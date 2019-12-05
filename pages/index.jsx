@@ -41,6 +41,7 @@ export default function Index() {
             .navigation-ul a {
                 color: white;
                 color: rgba(255, 255, 255, 0.8);
+                white-space: nowrap;
             }
 
             .navigation-ul a:hover {
