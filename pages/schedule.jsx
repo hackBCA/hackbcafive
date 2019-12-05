@@ -1,6 +1,6 @@
 import ContentPage from "../components/ContentPage";
 
-export default () => <ContentPage>
+export default () => <ContentPage title="Schedule & Workshops">
     <h1>Schedule</h1>
     <table class="table table-sm table-borderless">
         <tr><th><h4>February 13, 2020</h4></th></tr>

@@ -14,4 +14,4 @@ export function RegistrationContent() {
     );
 }
 
-export default () => <ContentPage><RegistrationContent /></ContentPage>
+export default () => <ContentPage title="Register"><RegistrationContent /></ContentPage>
