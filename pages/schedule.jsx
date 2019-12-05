@@ -4,7 +4,7 @@ export default () => <ContentPage title="Schedule & Workshops">
     <h1>Schedule</h1>
     <table class="table table-sm table-borderless" style={{maxWidth: "480px"}}>
         <tr><th><h4>February 13, 2020</h4></th></tr>
-        <tr><th scope="row">2:30PM</th><td>Registration</td></tr>
+        <tr><th scope="row">2:00PM</th><td>Registration</td></tr>
         <tr><th scope="row">3:30PM</th><td>Opening Ceremony</td></tr>
         <tr><th scope="row">4:30PM</th><td>Hacking begins</td></tr>
         <tr><th scope="row">6:00PM</th><td>Dinner</td></tr>
