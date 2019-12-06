@@ -1,9 +1,35 @@
 import ContentPage from "../components/ContentPage";
 
 export default () => <ContentPage title="Sponsor Us">
+    <style jsx>{`
+        li {
+            margin-top: -10px;
+            margin-bottom: -10px;
+        }
+
+        thead {
+            background: #31bbf7;
+        }
+
+        tr:nth-child(2n) {
+            background: #b6e5f9;
+        }
+
+        .table th, .table td {
+            text-align: center;
+            vertical-align: middle;
+            border: none;
+        }
+
+        tr * p {
+            margin:auto;
+            text-align: left;
+        }
+    `}</style>
+
     <h1><span>About Sponsoring</span></h1>
     <h4><span><strong>WHO WE ARE</strong></span></h4>
-    <p><span><strong>hackBCA V</strong> is the long-awaited return of hackBCA’s classic hackathon format that will take place on February 13-14, 2019 for approximately 250-300 high schoolers. The event will be open to people of all skill levels, and will include hacking, workshops, talks, and games.</span></p>
+    <p><span><strong>hackBCA V</strong> is the long-awaited return of hackBCA’s classNameic hackathon format that will take place on February 13-14, 2019 for approximately 250-300 high schoolers. The event will be open to people of all skill levels, and will include hacking, workshops, talks, and games.</span></p>
     <h4><span><strong>WHY JOIN US</strong></span></h4>
 
     <p><span>Sponsors get the opportunity to:</span></p>
@@ -52,10 +78,12 @@ export default () => <ContentPage title="Sponsor Us">
         </li>
     </ul>
 
-    <table class="table">
+    <table className="table">
         <thead>
-            <tr class="header">
-                <th><span><strong>TIER</strong></span></th>
+            <tr className="header">
+                <th>
+                    <p><span><strong>TIER</strong></span></p>
+                </th>
                 <th><span><strong>Alpha</strong></span></th>
                 <th><span><strong>Beta</strong></span></th>
                 <th><span><strong>Gamma</strong></span></th>
@@ -63,21 +91,25 @@ export default () => <ContentPage title="Sponsor Us">
             </tr>
         </thead>
         <tbody>
-            <tr class="odd">
-                <td><span><strong>COST ($)</strong></span></td>
+            <tr>
+                <td>
+                    <p><span><strong>COST ($)</strong></span></p>
+                </td>
                 <td><span>500</span></td>
                 <td><span>1,000</span></td>
                 <td><span>2,000</span></td>
                 <td><span>Contact us</span></td>
             </tr>
-            <tr class="even">
-                <td><span><strong>GENERAL</strong></span></td>
+            <tr>
+                <td>
+                    <p><span><strong>GENERAL</strong></span></p>
+                </td>
                 <td><span></span></td>
                 <td><span></span></td>
                 <td><span></span></td>
                 <td><span></span></td>
             </tr>
-            <tr class="odd">
+            <tr>
                 <td>
                     <p><span>Mentors at hackBCA</span></p>
                 </td>
@@ -86,7 +118,7 @@ export default () => <ContentPage title="Sponsor Us">
                 <td><span>✔</span></td>
                 <td><span>✔</span></td>
             </tr>
-            <tr class="even">
+            <tr>
                 <td>
                     <p><span>Table in sponsors section</span></p>
                 </td>
@@ -95,7 +127,7 @@ export default () => <ContentPage title="Sponsor Us">
                 <td><span>Full Table</span></td>
                 <td><span>Full Table</span></td>
             </tr>
-            <tr class="odd">
+            <tr>
                 <td>
                     <p><span>Provide Hardware for Students</span></p>
                 </td>
@@ -104,7 +136,7 @@ export default () => <ContentPage title="Sponsor Us">
                 <td><span>✔</span></td>
                 <td><span>✔</span></td>
             </tr>
-            <tr class="even">
+            <tr>
                 <td>
                     <p><span>Host Custom Workshops</span></p>
                 </td>
@@ -113,7 +145,7 @@ export default () => <ContentPage title="Sponsor Us">
                 <td><span>✔</span></td>
                 <td><span>✔</span></td>
             </tr>
-            <tr class="odd">
+            <tr>
                 <td>
                     <p><span>Talk/Demo at kickoff</span></p>
                 </td>
@@ -122,7 +154,7 @@ export default () => <ContentPage title="Sponsor Us">
                 <td><span>2 min</span></td>
                 <td><span>3 min</span></td>
             </tr>
-            <tr class="even">
+            <tr>
                 <td>
                     <p><span>Company talk at closing</span></p>
                 </td>
@@ -131,14 +163,16 @@ export default () => <ContentPage title="Sponsor Us">
                 <td><span>1 min</span></td>
                 <td><span>2 min</span></td>
             </tr>
-            <tr class="odd">
-                <td><strong><span>RECRUITING</span></strong></td>
+            <tr>
+                <td>
+                    <p><strong><span>RECRUITING</span></strong></p>
+                </td>
                 <td><span></span></td>
                 <td><span></span></td>
                 <td><span></span></td>
                 <td><span></span></td>
             </tr>
-            <tr class="even">
+            <tr>
                 <td>
                     <p><span>Onsite recruiters/evangelists</span></p>
                 </td>
@@ -147,7 +181,7 @@ export default () => <ContentPage title="Sponsor Us">
                 <td><span>✔</span></td>
                 <td><span>✔</span></td>
             </tr>
-            <tr class="odd">
+            <tr>
                 <td>
                     <p><span>Attach content to emails</span></p>
                 </td>
@@ -156,14 +190,16 @@ export default () => <ContentPage title="Sponsor Us">
                 <td><span>✔</span></td>
                 <td><span>✔</span></td>
             </tr>
-            <tr class="even">
-                <td><strong><span>BRANDING</span></strong></td>
+            <tr>
+                <td>
+                    <p><strong><span>BRANDING</span></strong></p>
+                </td>
                 <td><span></span></td>
                 <td><span></span></td>
                 <td><span></span></td>
                 <td><span></span></td>
             </tr>
-            <tr class="odd">
+            <tr>
                 <td>
                     <p><span>Thanked at kickoff/closing</span></p>
                 </td>
@@ -172,7 +208,7 @@ export default () => <ContentPage title="Sponsor Us">
                 <td><span>✔</span></td>
                 <td><span>✔</span></td>
             </tr>
-            <tr class="even">
+            <tr>
                 <td>
                     <p><span>Logo on the hackBCA Website</span></p>
                 </td>
@@ -181,7 +217,7 @@ export default () => <ContentPage title="Sponsor Us">
                 <td><span>✔</span></td>
                 <td><span>✔</span></td>
             </tr>
-            <tr class="odd">
+            <tr>
                 <td>
                     <p><span>Logo on hackBCA t-shirt</span></p>
                 </td>
@@ -190,7 +226,7 @@ export default () => <ContentPage title="Sponsor Us">
                 <td><span>✔</span></td>
                 <td><span>✔</span></td>
             </tr>
-            <tr class="even">
+            <tr>
                 <td>
                     <p><span>Company Banners</span></p>
                 </td>
@@ -199,7 +235,7 @@ export default () => <ContentPage title="Sponsor Us">
                 <td><span>✔</span></td>
                 <td><span>✔</span></td>
             </tr>
-            <tr class="odd">
+            <tr>
                 <td>
                     <p><span>Can distribute swag</span></p>
                 </td>
@@ -208,7 +244,7 @@ export default () => <ContentPage title="Sponsor Us">
                 <td><span>✔</span></td>
                 <td><span>✔</span></td>
             </tr>
-            <tr class="even">
+            <tr>
                 <td>
                     <p><span>Listed in API directory</span></p>
                 </td>
@@ -217,7 +253,7 @@ export default () => <ContentPage title="Sponsor Us">
                 <td><span>✔</span></td>
                 <td><span>✔</span></td>
             </tr>
-            <tr class="odd">
+            <tr>
                 <td>
                     <p><span>Logo on all pages of website</span></p>
                 </td>
@@ -226,7 +262,7 @@ export default () => <ContentPage title="Sponsor Us">
                 <td><span></span></td>
                 <td><span>✔</span></td>
             </tr>
-            <tr class="even">
+            <tr>
                 <td>
                     <p><span>Mentioned in press releases</span></p>
                 </td>
@@ -235,7 +271,7 @@ export default () => <ContentPage title="Sponsor Us">
                 <td><span></span></td>
                 <td><span>✔</span></td>
             </tr>
-            <tr class="odd">
+            <tr>
                 <td>
                     <p><span>Sponsor a meal**</span></p>
                 </td>
@@ -246,7 +282,11 @@ export default () => <ContentPage title="Sponsor Us">
             </tr>
         </tbody>
     </table>
-    <p><span><strong>NOTE: All monetary sponsorship of hackBCA is tax-exempt.</strong></span></p>
-    <p><span><strong>*</strong> Terms are negotiable for all tiers</span></p>
-    <p><span><strong>**</strong> First come, first serve, limited to four meals</span></p>
+    <p>
+        <span><strong>NOTE: All monetary sponsorship of hackBCA is tax-exempt.</strong></span>
+        <br/>
+        <span><strong>*</strong> Terms are negotiable for all tiers</span>
+        <br/>
+        <span><strong>**</strong> First come, first serve, limited to four meals</span>
+    </p>
 </ContentPage>
