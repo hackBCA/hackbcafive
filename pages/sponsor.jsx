@@ -92,6 +92,8 @@ export default () => <ContentPage title="Sponsor Us">
         </li>
     </ul>
 
+    <br />
+
     <table className="table">
         <thead>
             <tr className="header">
@@ -298,9 +300,9 @@ export default () => <ContentPage title="Sponsor Us">
     </table>
     <p>
         <span><strong>NOTE: All monetary sponsorship of hackBCA is tax-exempt.</strong></span>
-        <br/>
+        <br />
         <span><strong>*</strong> Terms are negotiable for all tiers</span>
-        <br/>
+        <br />
         <span><strong>**</strong> First come, first serve, limited to four meals</span>
     </p>
 </ContentPage>
