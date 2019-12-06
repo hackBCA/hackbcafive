@@ -43,7 +43,7 @@ export default () => <ContentPage title="Sponsor Us">
     </p>
 
     <h4><span><strong>WHO WE ARE</strong></span></h4>
-    <p><span><strong>hackBCA V</strong> is the long-awaited return of hackBCA’s classNameic hackathon format that will take place on February 13-14, 2019 for approximately 250-300 high schoolers. The event will be open to people of all skill levels, and will include hacking, workshops, talks, and games.</span></p>
+    <p><span><strong>hackBCA V</strong> is the long-awaited return of hackBCA’s classic hackathon format that will take place on February 13-14, 2019 for approximately 250-300 high schoolers. The event will be open to people of all skill levels, and will include hacking, workshops, talks, and games.</span></p>
     <h4><span><strong>WHY JOIN US</strong></span></h4>
 
     <p><span>Sponsors get the opportunity to:</span></p>
