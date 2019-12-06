@@ -73,13 +73,13 @@ export default function Index() {
                     {/* <p><Button href="/whatis" variant="dark">What's hackBCA? <ChevronRight /></Button></p> */}
                     <p><Link href="/register"><a className="btn btn-primary">How to register <ChevronRight /></a></Link></p>
                     <ul className="navigation-ul fa-ul">
-                        {/* <li>
+                        <li>
                             <Link href="/sponsor">
                                 <a>
                                     <CircleIcon icon={faStar} listItem /> Sponsor us <ChevronRight />
                                 </a>
                             </Link>
-                        </li> */}
+                        </li>
                         <li>
                             <Link href="/schedule">
                                 <a>

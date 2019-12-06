@@ -1,4 +1,8 @@
 import ContentPage from "../components/ContentPage";
+import ChevronRight from "../components/ChevronRight";
+import FilePdf from "../components/FilePdf";
+import Email from "../components/Email";
+import Link from "next/link";
 
 export default () => <ContentPage title="Sponsor Us">
     <style jsx>{`
@@ -22,12 +26,22 @@ export default () => <ContentPage title="Sponsor Us">
         }
 
         tr * p {
-            margin:auto;
+            margin: auto;
             text-align: left;
+        }
+
+        a {
+            margin-right: 10px;
         }
     `}</style>
 
     <h1><span>About Sponsoring</span></h1>
+
+    <p>
+        <Link href="/sponsor"><a className="btn btn-primary"><FilePdf /> Prospectus (PDF) <ChevronRight /></a></Link>
+        <Link href="mailto:contact@hackbca.com"><a className="btn btn-primary"><Email /> Contact us <ChevronRight /></a></Link>
+    </p>
+
     <h4><span><strong>WHO WE ARE</strong></span></h4>
     <p><span><strong>hackBCA V</strong> is the long-awaited return of hackBCA’s classNameic hackathon format that will take place on February 13-14, 2019 for approximately 250-300 high schoolers. The event will be open to people of all skill levels, and will include hacking, workshops, talks, and games.</span></p>
     <h4><span><strong>WHY JOIN US</strong></span></h4>
