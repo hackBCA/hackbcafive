@@ -9,11 +9,11 @@ export function RegistrationContent() {
             <h1>Registration</h1>
 
             <h2>BCA Students</h2>
-            <div className="mb-2">
-                <a className="btn btn-primary mr-1" href="/register/contact-and-medical.pdf" target="_blank">
+            <div className="mb-1">
+                <a className="btn btn-primary mr-1 mb-1" href="/register/contact-and-medical.pdf" target="_blank">
                     <LazyIcon icon={faFilePdf} /> Emergency Contact & Medical Information <LazyIcon icon={faChevronRight} />
                 </a>
-                <a className="btn btn-primary" href="/register/waiver.pdf" target="_blank">
+                <a className="btn btn-primary mb-1" href="/register/waiver.pdf" target="_blank">
                     <LazyIcon icon={faFilePdf} /> Participant Waiver <LazyIcon icon={faChevronRight} />
                 </a>
             </div>
