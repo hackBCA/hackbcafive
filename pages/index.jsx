@@ -129,8 +129,9 @@ export default function Index() {
 
                 <div className="content">
                     <p className="lead"><strong className="font-weight-bold">Rise from the ashes.</strong> February 13-14, 2020 @ BCA.</p>
+                    <p><em>Registration is now open!</em></p>
                     {/* <p><Button href="/whatis" variant="dark">What's hackBCA? <ChevronRight /></Button></p> */}
-                    <p><Link href="/register"><a className="btn btn-primary">How to register <ChevronRight /></a></Link></p>
+                    <p><Link href="/register"><a className="btn btn-primary">Register now <ChevronRight /></a></Link></p>
                     <ul className="navigation-ul fa-ul">
                         {/* <li>
                             <Link href="/sponsor">

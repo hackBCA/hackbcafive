@@ -1,6 +1,6 @@
-import LazyLoad from "react-lazyload";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import dynamic from "next/dynamic";
+const FontAwesomeIcon = dynamic(() => import("./FontAwesomeIcon"), {ssr: false});
 
 export default function LazyIcon(props) {
-    return <LazyLoad><FontAwesomeIcon {...props}></FontAwesomeIcon></LazyLoad>
+    return <FontAwesomeIcon {...props}></FontAwesomeIcon>
 }
