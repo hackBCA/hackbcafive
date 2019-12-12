@@ -22,7 +22,6 @@ export function RegistrationContent() {
             <ul>
                 <li><a href="/register/contact-and-medical.pdf">Emergency contact/medical information form</a></li>
                 <li><a href="/register/waiver.pdf">Participant waiver</a></li>
-                <li>$35 (cash or check made out to "Bergen County Technical Schools")</li>
             </ul>
 
             <p>Register by January 10 for an early bird discount. After January 10, registration will cost $40.</p>
