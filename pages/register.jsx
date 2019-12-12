@@ -24,7 +24,6 @@ export function RegistrationContent() {
                 <li><a href="/register/waiver.pdf">Participant waiver</a></li>
             </ul>
 
-            <p>Register by January 10 for an early bird discount. After January 10, registration will cost $40.</p>
             <p>Registration closes when spots fill up or on January 20, whichever comes first.</p>
 
             <h2>Out-of-District Students</h2>
