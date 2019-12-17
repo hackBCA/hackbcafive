@@ -38,7 +38,7 @@ export default () => <ContentPage title="Sponsor Us">
     <h1><span>About Sponsoring</span></h1>
 
     <p>
-        <Link href="/sponsor"><a className="btn btn-primary"><FilePdf /> Prospectus (PDF) <ChevronRight /></a></Link>
+        <Link href="/sponsor/prospectus.pdf"><a className="btn btn-primary"><FilePdf /> Prospectus (PDF) <ChevronRight /></a></Link>
         <Link href="mailto:contact@hackbca.com"><a className="btn btn-primary"><Email /> Contact us <ChevronRight /></a></Link>
     </p>
 
