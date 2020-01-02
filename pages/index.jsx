@@ -7,6 +7,7 @@ import ChevronRight from "../components/ChevronRight";
 import CircleIcon from "../components/CircleIcon";
 import LazyIcon from "../components/LazyIcon";
 import Link from "next/link";
+import Footer from "../components/Footer";
 
 export default function Index() {
     return (
@@ -18,7 +19,7 @@ export default function Index() {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                height: 100%;
+                height: 100vh;
             }
 
             .content {
@@ -158,6 +159,8 @@ export default function Index() {
                     </ul>
                 </div>
             </div>
+            
+            <Footer />
         </Page>
     );
 }

@@ -1,6 +1,11 @@
-const withSass = require("@zeit/next-sass");
+const sass = require("@zeit/next-sass");
+const withPlugins = require("next-compose-plugins");
+const svgr = require("next-svgr")
 
-module.exports = withSass({
+module.exports = withPlugins([
+    sass,
+    svgr
+], {
     exportTrailingSlash: true,
     exportPathMap: () => {
         const paths = ["/", "/register", "/schedule", "/sponsor", "/support", "/whatis"];
