@@ -37,7 +37,7 @@ export default function Footer() {
                         <h5 className="font-weight-bold">Sponsors</h5>
                         <p>hackBCA is brought to you by:</p>
                         <FooterSponsor href="https://www.janestreet.com" sponsor={JaneStreet} />
-                        <p className="mt-2 mb-0"><a href="/sponsors">Want to join this list? Sponsor us!</a></p>
+                        <p className="mt-2 mb-0"><a href="/sponsor">Want to join this list? Sponsor us!</a></p>
                     </Col>
                     <Col className="pb-5" sm>
                         {/* <h5 className="font-weight-bold">Links</h5> */}
