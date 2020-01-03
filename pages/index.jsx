@@ -68,7 +68,7 @@ export default function Index() {
             .hero-header h1 {
                 color: #E0F0FFAA;
                 position: absolute;
-                bottom: -0.3em;
+                bottom: 1rem;
                 left: 50%;
                 transform: translateX(-50%);
                 margin: 0;
