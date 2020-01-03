@@ -1,4 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
+import Link from "next/link";
 import FooterSponsor from "./FooterSponsor";
 import JaneStreet from "../public/sponsor/janestreet.svg";
 
