@@ -63,6 +63,6 @@ export default () => <ContentPage title="What is hackBCA?">
     </Row>
     <div className="whatis-content-group">
         <p>Convinced?</p>
-        <Link to="/register" passHref><Button variant="primary">Register now <LazyIcon icon={faArrowRight} /></Button></Link>
+        <p><Link to="/register"><a className="btn btn-primary">Register now <LazyIcon icon={faArrowRight} /></a></Link></p>
     </div>
 </ContentPage>
