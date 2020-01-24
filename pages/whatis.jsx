@@ -48,7 +48,7 @@ export default () => <ContentPage title="What is hackBCA?">
     <Row className="whatis-content-group">
         <Col md>
             <h4>Community</h4>
-            <p>You can work in groups of 4-5, meaning that you can build something with your friends. There will also be fun things to do like cup stacking, PowerPoint karaoke, and more.</p>
+            <p>You can work in groups of up to 4-5, meaning that you can build something with your friends. There will also be fun things to do like cup stacking, PowerPoint karaoke, and more.</p>
             <p>No matter your skill level, we’ve got workshops for you, ranging from basic web design to hardware hacking to version control.</p>
         </Col>
         <Col><img src="/images/whatis1.jpg" /></Col>
