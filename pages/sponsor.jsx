@@ -16,7 +16,7 @@ export default () => <ContentPage title="Sponsor Us">
         }
 
         tr:nth-child(2n) {
-            background: #b6e5f9;
+            background: #b6e5f933;
         }
 
         .table th, .table td {
