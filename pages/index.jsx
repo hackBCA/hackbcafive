@@ -59,7 +59,7 @@ export default function Index() {
 
             .hero-header {
                 width: 100%;
-                background-image: linear-gradient(#0a3452e0, #0a3452e0), url(/images/landing.JPG);
+                background-image: linear-gradient(#0a3452e0, #0a3452e0), url(/images/landing.jpg);
                 background-color: #0d3254;
                 height: 60vh;
                 overflow: hidden;
