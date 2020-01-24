@@ -1,9 +1,12 @@
 $font-family-sans-serif: "Fira Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 
+$body-bg: #001427;
+$body-color: #E0F0FF;
+
 @import "node_modules/bootstrap/scss/bootstrap.scss";
 @import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,700&display=swap");
 
 html, body, #__next {
     width: 100%;
     min-height: 100%;
-} 
+}
