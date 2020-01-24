@@ -23,7 +23,7 @@ export default () => <ContentPage title="What is hackBCA?">
         width: 100%;
     }
 
-    .whatis-content-group:nth-child(2n) > .col:first-child {
+    .whatis-content-group:nth-child(2n) .col-md:first-child {
         order: 2;
     }
 
