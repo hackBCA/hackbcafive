@@ -8,7 +8,7 @@ import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 export default function ContentPage({children, title}) {
     return <Page title={title}>
         <Container style={{marginTop: "64px", marginBottom: "64px"}}>
-            <p><Link href="/"><a><LazyIcon icon={faArrowLeft}></LazyIcon> Back to hackBCA Home</a></Link></p>
+            <p><Link href="/"><a className="hackbca-back"><LazyIcon icon={faArrowLeft}></LazyIcon> Back to hackBCA Home</a></Link></p>
             {children}
         </Container>
         <Footer />

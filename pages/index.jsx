@@ -59,14 +59,17 @@ export default function Index() {
 
             .hero-header {
                 width: 100%;
+                background-image: linear-gradient(#0a3452e0, #0a3452e0), url(/images/landing.JPG);
                 background-color: #0d3254;
                 height: 60vh;
                 overflow: hidden;
                 position: relative;
+                background-position: center;
+                background-size: cover;
             }
 
             .hero-header h1 {
-                color: #E0F0FFAA;
+                color: #E0F0FFBB;
                 position: absolute;
                 bottom: 1rem;
                 left: 50%;
@@ -131,8 +134,10 @@ export default function Index() {
                 <div className="content">
                     <p className="lead"><strong className="font-weight-bold">Rise from the ashes.</strong> February 13-14, 2020 @ BCA.</p>
                     <p><em>Registration is now open!</em></p>
-                    {/* <p><Link href="/whatis"><a className="btn btn-dark">What's hackBCA? <ChevronRight /></a></Link></p> */}
-                    <p><Link href="/register"><a className="btn btn-primary">Register now <ChevronRight /></a></Link></p>
+                    <p>
+                        <Link href="/whatis"><a className="btn btn-dark mr-3">What's hackBCA? <ChevronRight /></a></Link>
+                        <Link href="/register"><a className="btn btn-primary">Register now <ChevronRight /></a></Link>
+                    </p>
                     <ul className="navigation-ul fa-ul">
                         <li>
                             <Link href="/sponsor">
