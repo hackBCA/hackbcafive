@@ -13,10 +13,10 @@ export default () => <ContentPage title="Schedule & Workshops">
         <tr><th scope="row">12:00AM</th><td>Midnight Pizza</td></tr>
         <tr><th scope="row">7:00AM</th><td>Breakfast</td></tr>
         <tr><th scope="row">11:00AM</th><td>Hacks must be submitted</td></tr>
-        <tr><th scope="row">11:00AM</th><td>Lunch</td></tr>
-        <tr><th scope="row">12:00PM</th><td>Demos</td></tr>
-        <tr><th scope="row">2:00PM</th><td>Closing Ceremony & Awards</td></tr>
-        <tr><th scope="row">3:00PM</th><td>Hackers depart</td></tr>
+        <tr><th scope="row">11:00AM</th><td>Demos</td></tr>
+        <tr><th scope="row">12:00PM</th><td>Lunch</td></tr>
+        <tr><th scope="row">1:00PM</th><td>Closing Ceremony & Awards</td></tr>
+        <tr><th scope="row">2:00PM</th><td>Hackers depart</td></tr>
     </table>
 
     <h2>Workshops</h2>
