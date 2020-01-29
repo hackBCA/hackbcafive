@@ -133,7 +133,7 @@ export default function Index() {
 
                 <div className="content">
                     <p className="lead"><strong className="font-weight-bold">Rise from the ashes.</strong> February 13-14, 2020 @ BCA.</p>
-                    <p><em>Registration is now open!</em></p>
+                    <p><em><Link href="/schedule"><a>See our list of workshops <ChevronRight /></a></Link></em></p>
                     <p>
                         <Link href="/whatis"><a className="btn btn-dark mr-3">What's hackBCA? <ChevronRight /></a></Link>
                         <Link href="/register"><a className="btn btn-primary">Register now <ChevronRight /></a></Link>
