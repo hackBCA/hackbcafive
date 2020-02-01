@@ -1,0 +1,140 @@
+# Workshops
+-
+  type: workshop
+  name: Intro to Web Development
+  description: >
+    Do you want to build your very own website using HTML and CSS, but don't know where to start?
+    In this workshop, we will go into basic markup principles of HTML and CSS for beginners and
+    teach you the skills you would need to create a website.
+
+    This workshop includes a dinner break.
+
+    **Requirements:** None.
+  beginner: recommended
+  start: 2020-02-13T17:00:00-05:00
+  end: 2020-02-13T19:30:00-05:00
+  location: "Room 110"
+-
+  type: workshop
+  name: Understanding Git/Version Control
+  description: >
+    Git is a widely-used version control system, allowing for teams to collaborate and keep track of source code.
+    You will learn how to use Git and best practices for dealing with version control. If you have no prior experience,
+    this workshop is highly recommended.
+    
+    You should have git installed before this talk. To test, type `git --version` in a terminal.
+  start: 2020-02-13T17:00:00-05:00
+  end: 2020-02-13T18:00:00-05:00
+  location: "Room 138"
+-
+  type: workshop
+  name: iOS Development with SwiftUI
+  description: >
+    Dive into the world of developing apps for all of Apple's platforms. Learn Swift, Apple's new fun and easy programming language,
+    and use SwiftUI to build an interface for your app. We'll cover everything you need to know to build a basic iOS app - displaying
+    data, adding interactivity, and querying web servers.
+    
+    **Requirements:** A Mac is required for this workshop.
+    
+    You should install an up-to-date version of macOS and [Xcode](https://apps.apple.com/us/app/xcode/id497799835?mt=12), available for free from the Mac App Store.
+
+    An iOS device (iPhone, iPad, or iPod) and an accompanying Lightning cable is highly recommended.
+  start: 2020-02-13T19:00:00-05:00
+  end: 2020-02-13T21:00:00-05:00
+-
+  type: workshop
+  name: Vue.js
+  description: >
+    Vue is a popular JavaScript framework for building single page applications. Learn how to use Vue directives and routing to build
+    websites, and how to use relevant dev tools.
+
+    You will need both a recent version of node and vue-cli installed.
+  start: 2020-02-13T19:00:00-05:00
+  end: 2020-02-13T21:00:00-05:00
+-
+  type: workshop
+  name: Hosting Websites with Github Pages
+  description: >
+    After creating a website, you might want to have that available on the Internet for others
+    to visit. This workshop will cover how to host static websites with Github Pages, and the fundamentals of Git.
+    
+    You should have git installed before this talk. To test, type `git --version` in a terminal.
+
+    This is meant to follow Intro to Web, but anyone can attend.
+  beginner: recommended
+  start: 2020-02-13T20:00:00-05:00
+  end: 2020-02-13T21:00:00-05:00
+-
+  type: workshop
+  name: Intro to JavaScript
+  beginner: recommended
+  start: 2020-02-13T21:00:00-05:00
+  end: 2020-02-13T22:00:00-05:00
+-
+  type: workshop
+  name: Intro to Circuits and Arduino
+  beginner: friendly
+  start: 2020-02-13T22:00:00-05:00
+  end: 2020-02-13T23:00:00-05:00
+
+# Meals, Ceremonies, Misc
+-
+  type: misc
+  name: Registration
+  start: 2020-02-13T14:00:00-05:00
+  end: 2020-02-13T15:15:00-05:00
+  location: "Gym"
+-
+  type: ceremony
+  name: Opening Ceremony
+  xref: opening
+  start: 2020-02-13T15:30:00-05:00
+  end: 2020-02-13T16:30:00-05:00
+  location: "Auditorium"
+-
+  type: misc
+  name: Hacking begins
+  start: 2020-02-13T16:30:00-05:00
+  location: "Gym"
+-
+  type: meal
+  name: Dinner
+  menu: dinner
+  start: 2020-02-13T18:00:00-05:00
+  end: 2020-02-13T19:00:00-05:00
+-
+  type: meal
+  name: Midnight Pizza
+  menu: pizza
+  start: 2020-02-14T00:00:00-05:00
+  end: 2020-02-14T00:30:00-05:00
+-
+  type: meal
+  name: Breakfast
+  menu: breakfast
+  start: 2020-02-14T07:00:00-05:00
+  end: 2020-02-14T08:00:00-05:00
+-
+  type: misc
+  name: Hacks must be submitted
+  start: 2020-02-14T11:00:00-05:00
+-
+  type: misc
+  name: Demos
+  start: 2020-02-14T11:00:00-05:00
+-
+  type: meal
+  name: Lunch
+  menu: lunch
+  start: 2020-02-14T12:00:00-05:00
+  end: 2020-02-14T13:00:00-05:00
+-
+  type: ceremony
+  name: Closing Ceremony & Awards
+  xref: closing
+  start: 2020-02-14T13:00:00-05:00
+  end: 2020-02-14T14:00:00-05:00
+-
+  type: misc
+  name: Hackers depart
+  start: 2020-02-14T14:00:00-05:00
