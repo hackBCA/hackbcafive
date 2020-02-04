@@ -60,12 +60,24 @@ export default () => {
             bottom: 0;
             z-index: 2;
         }
+        
+        .hackbca-event-more-link a {
+            color: #70BBFF;
+        }
+
+        .hackbca-event-more-link a:link {
+            color: #70BBFF;
+        }
 
         .hackbca-event-details {
             position: absolute;
             left: 0;
             bottom: 0;
             z-index: 2;
+        }
+
+        :global(.modal-body a), :global(.modal-body a:link) {
+            color: #70BBFF;
         }
         `}</style>
         <h1>Schedule</h1>
@@ -103,6 +115,10 @@ export default () => {
                 <Modal.Title>{modalEvent && modalEvent.name}</Modal.Title>
             </Modal.Header>
             {modalEvent && <Modal.Body>
+                <div className="h5 hackbca-event-time">{getTime(modalEvent.start)}{modalEvent.end && <span className="text-white-50"> - {getTime(modalEvent.end)}</span>}</div>
+                {modalEvent.location && <div className="h5">{modalEvent.location}</div>}
+                {modalEvent.presenter && <div className="h5">{modalEvent.presenter}</div>}
+                <div className="my-5"></div>
                 {modalEvent.description && <ReactMarkdown source={modalEvent.description.replace(/\n/g, "\n\n")} linkTarget="_blank" />}
                 {modalEvent.requirements && <Fragment>
                     <h5 className="font-weight-bold">Requirements</h5>
