@@ -1,10 +1,12 @@
 const sass = require("@zeit/next-sass");
 const withPlugins = require("next-compose-plugins");
-const svgr = require("next-svgr")
+const svgr = require("next-svgr");
+const yaml = require("next-yaml");
 
 module.exports = withPlugins([
     sass,
-    svgr
+    svgr,
+    yaml
 ], {
     exportTrailingSlash: true,
     exportPathMap: () => {
