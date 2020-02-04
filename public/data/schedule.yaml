@@ -8,8 +8,8 @@
     teach you the skills you would need to create a website.
 
     This workshop includes a dinner break.
-
-    **Requirements:** None.
+  requirements: >
+    You should have a proper text editor installed (eg. [Atom](https://atom.io/) or [VSCode](https://code.visualstudio.com/)).
   beginner: recommended
   start: 2020-02-13T17:00:00-05:00
   end: 2020-02-13T19:30:00-05:00
@@ -21,8 +21,10 @@
     Git is a widely-used version control system, allowing for teams to collaborate and keep track of source code.
     You will learn how to use Git and best practices for dealing with version control. If you have no prior experience,
     this workshop is highly recommended.
-    
-    You should have git installed before this talk. To test, type `git --version` in a terminal.
+  requirements: >
+    You should have [git](https://git-scm.com/) installed before this talk.
+    To test, type `git --version` in a terminal.
+    If you are on a Mac or Linux system, git may already be preinstalled.
   start: 2020-02-13T17:00:00-05:00
   end: 2020-02-13T18:00:00-05:00
   location: "Room 138"
@@ -34,21 +36,21 @@
     and use SwiftUI to build an interface for your app. We'll cover everything you need to know to build a basic iOS app - displaying
     data, adding interactivity, and querying web servers.
     
-    **Requirements:** A Mac is required for this workshop.
+  requirements: >
+    A Mac is required. Having an iOS device (iPhone, iPad, or iPod) and an accompanying Lightning cable is highly recommended.
     
-    You should install an up-to-date version of macOS and [Xcode](https://apps.apple.com/us/app/xcode/id497799835), available for free from the Mac App Store.
-
-    An iOS device (iPhone, iPad, or iPod) and an accompanying Lightning cable is highly recommended.
+    You should also install an up-to-date version of macOS and [Xcode](https://apps.apple.com/us/app/xcode/id497799835), available for free from the Mac App Store.
   start: 2020-02-13T19:00:00-05:00
   end: 2020-02-13T21:00:00-05:00
 -
   type: workshop
   name: Vue.js
   description: >
-    Vue is a popular JavaScript framework for building single page applications. Learn how to use Vue directives and routing to build
-    websites, and how to use relevant dev tools.
-
-    You will need both a recent version of node and vue-cli installed.
+    Vue is a popular JavaScript framework for building single page applications.
+    Learn how to use Vue directives and routing to build websites, and how to use relevant dev tools.
+  requirements: >
+    You will need both a recent version of [node](https://nodejs.org/en/) and vue-cli installed.
+    To install vue-cli, type `npm install -g @vue/cli` in a terminal, after installing node.
   start: 2020-02-13T19:00:00-05:00
   end: 2020-02-13T21:00:00-05:00
 -
@@ -57,10 +59,12 @@
   description: >
     After creating a website, you might want to have that available on the Internet for others
     to visit. This workshop will cover how to host static websites with Github Pages, and the fundamentals of Git.
-    
-    You should have git installed before this talk. To test, type `git --version` in a terminal.
 
     This is meant to follow Intro to Web, but anyone can attend.
+  reuqirements: >
+    You should have [git](https://git-scm.com/) installed before this talk.
+    To test, type `git --version` in a terminal.
+    If you are on a Mac or Linux system, git may already be preinstalled.
   beginner: recommended
   start: 2020-02-13T20:00:00-05:00
   end: 2020-02-13T21:00:00-05:00
@@ -71,6 +75,8 @@
     After learning how to create a basic website, why not try adding some interactivity to it?
     In this Intro to JavaScript course, learn how to use one of the fundamental building blocks of the web
     to create your own 2D platformer using the phaser.js game framework.
+  requirements: >
+    You should have a proper text editor installed (eg. [Atom](https://atom.io/) or [VSCode](https://code.visualstudio.com/)).
   beginner: recommended
   start: 2020-02-13T21:00:00-05:00
   end: 2020-02-13T22:00:00-05:00
