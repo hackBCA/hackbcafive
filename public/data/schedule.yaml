@@ -2,6 +2,7 @@
 -
   type: workshop
   name: Intro to Web Development
+  presenter: Christina Kaddouh
   description: >
     Do you want to build your very own website using HTML and CSS, but don't know where to start?
     In this workshop, we will go into basic markup principles of HTML and CSS for beginners and
@@ -90,6 +91,19 @@
   beginner: friendly
   start: 2020-02-13T22:00:00-05:00
   end: 2020-02-13T23:00:00-05:00
+
+# Activities
+-
+  type: activity
+  name: Cup Stacking
+  description: >
+    Stack cups. Stack 'em high. What more?
+
+    Compete against your fellow hackers to gain the prestigious position of first place. Then face off against longtime cup stacking veteran Aidan Glickman and his team.
+
+    Prizes are available.
+  start: 2020-02-14T02:00:00-05:00
+  end: 2020-02-14T03:00:00-05:00
 
 # Meals, Ceremonies, Misc
 -
