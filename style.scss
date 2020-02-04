@@ -2,6 +2,9 @@ $font-family-sans-serif: "Fira Sans", "Helvetica Neue", "Helvetica", "Arial", sa
 
 $body-bg: #001427;
 $body-color: #E0F0FF;
+$modal-content-bg: #0d3254;
+$modal-header-border-color: #0E4E89;
+$modal-footer-border-color: #0E4E89;
 
 @import "node_modules/bootstrap/scss/bootstrap.scss";
 @import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,700&display=swap");

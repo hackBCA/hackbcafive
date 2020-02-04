@@ -1,7 +1,7 @@
 import ContentPage from "../components/ContentPage";
 import schedule from "../public/data/schedule.yaml";
-import { useMemo } from "react";
-import { Row, Col } from "react-bootstrap";
+import { useMemo, useState, Fragment } from "react";
+import { Row, Col, Modal } from "react-bootstrap";
 import { DateTime } from "luxon";
 import ReactMarkdown from "react-markdown";
 import ChevronRight from "../components/ChevronRight";
@@ -11,6 +11,8 @@ function getTime(date) {
 }
 
 export default () => {
+    const [modalEvent, setModalEvent] = useState(null);
+
     const sortedSchedule = useMemo(() => schedule.sort((a, b) => a.start - b.start), [schedule]);
 
     return <ContentPage title="Schedule & Workshops">
@@ -35,6 +37,11 @@ export default () => {
             height: 128px;
             pointer-events: none;
             z-index: 1;
+        }
+
+        :global(.close) {
+            color: #fff;
+            text-shadow: none;
         }
 
         .hackbca-event-type {
@@ -83,10 +90,25 @@ export default () => {
                             {event.presenter && <div>{event.presenter}</div>}
                             {event.requirements && <div className="text-white-50">This workshop has special requirements.</div>}
                         </div>}
-                        {(event.description || event.requirements) && <div className="hackbca-event-more-link pr-3 pb-3"><a href="#">More <ChevronRight /></a></div>}
+                        {(event.description || event.requirements) && <div className="hackbca-event-more-link pr-3 pb-3">
+                            <a href="#" onClick={(ev) => {ev.preventDefault(); setModalEvent(event)}}>More <ChevronRight /></a>
+                        </div>}
                     </div>
                 </Col>
             })}
         </Row>
+
+        <Modal show={modalEvent} onHide={() => setModalEvent(null)}>
+            <Modal.Header closeButton>
+                <Modal.Title>{modalEvent && modalEvent.name}</Modal.Title>
+            </Modal.Header>
+            {modalEvent && <Modal.Body>
+                {modalEvent.description && <ReactMarkdown source={modalEvent.description.replace(/\n/g, "\n\n")} linkTarget="_blank" />}
+                {modalEvent.requirements && <Fragment>
+                    <h5 className="font-weight-bold">Requirements</h5>
+                    <ReactMarkdown source={modalEvent.requirements} />
+                </Fragment>}
+            </Modal.Body>}
+        </Modal>
     </ContentPage>
 }
