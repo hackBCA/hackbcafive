@@ -1,7 +1,7 @@
 import Page from "../components/Page";
 import { Button } from "react-bootstrap";
 import { faQuestionCircle, faUserCircle } from "@fortawesome/free-regular-svg-icons";
-import { faStar, faList } from "@fortawesome/free-solid-svg-icons";
+import { faStar, faList, faTrophy } from "@fortawesome/free-solid-svg-icons";
 import { Fragment } from "react";
 import ChevronRight from "../components/ChevronRight";
 import CircleIcon from "../components/CircleIcon";
@@ -133,10 +133,9 @@ export default function Index() {
 
                 <div className="content">
                     <p className="lead"><strong className="font-weight-bold">Rise from the ashes.</strong> February 13-14, 2020 @ BCA.</p>
-                    <p><em><Link href="/schedule"><a>See our list of workshops <ChevronRight /></a></Link></em></p>
                     <p>
                         <Link href="/whatis"><a className="btn btn-dark mr-3">What's hackBCA? <ChevronRight /></a></Link>
-                        <Link href="/register"><a className="btn btn-primary">Register now <ChevronRight /></a></Link>
+                        <Link href="/schedule"><a className="btn btn-primary">View schedule <ChevronRight /></a></Link>
                     </p>
                     <ul className="navigation-ul fa-ul">
                         <li>
@@ -147,20 +146,19 @@ export default function Index() {
                             </Link>
                         </li>
                         <li>
+                            <Link href="/awards">
+                                <a>
+                                    <CircleIcon icon={faTrophy} listItem /> Award Categories <ChevronRight />
+                                </a>
+                            </Link>
+                        </li>
+                        <li>
                             <Link href="/schedule">
                                 <a>
                                     <CircleIcon icon={faList} listItem /> Schedule & Workshops <ChevronRight />
                                 </a>
                             </Link>
                         </li>
-                        {/* <li>
-                            <Link href="/support">
-                                <a>
-                                    <LazyIcon icon={faQuestionCircle} listItem /> FAQ & Support <ChevronRight />
-                                </a>
-                            </Link>
-                        </li> */}
-                        {/* <li><LazyIcon icon={faUserCircle} listItem /> My hackBCA <ChevronRight /></li> */}
                     </ul>
                 </div>
             </div>
