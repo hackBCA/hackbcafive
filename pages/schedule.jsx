@@ -122,7 +122,7 @@ export default () => {
                 {modalEvent.presenter && <div className="h5">{modalEvent.presenter}</div>}
                 {modalEvent.beginner === "recommended" && <p><Badge variant="success">Recommended for Beginners</Badge></p>}
                 {modalEvent.beginner === "friendly" && <p><Badge variant="primary">Beginner-Friendly</Badge></p>}
-                <div className="my-5"></div>
+                <div className="my-3"></div>
                 {modalEvent.description && <ReactMarkdown source={modalEvent.description.replace(/\n/g, "\n\n")} linkTarget="_blank" />}
                 {modalEvent.requirements && <Fragment>
                     <h5 className="font-weight-bold">Requirements</h5>
