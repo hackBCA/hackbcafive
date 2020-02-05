@@ -25,7 +25,7 @@
     this workshop is highly recommended.
   requirements: >
     You should have [git](https://git-scm.com/) installed before this talk.
-    To test, type `git --version` in a terminal.
+    To check, type `git --version` in a terminal.
     If you are on a Mac or Linux system, git may already be preinstalled.
   start: 2020-02-13T17:00:00-05:00
   end: 2020-02-13T18:00:00-05:00
@@ -69,7 +69,7 @@
     This is meant to follow Intro to Web, but anyone can attend.
   requirements: >
     You should have [git](https://git-scm.com/) installed before this talk.
-    To test, type `git --version` in a terminal.
+    To check, type `git --version` in a terminal.
     If you are on a Mac or Linux system, git may already be preinstalled.
   beginner: recommended
   start: 2020-02-13T20:00:00-05:00
