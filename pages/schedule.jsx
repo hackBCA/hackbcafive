@@ -120,8 +120,8 @@ export default () => {
                 <div className="h5 hackbca-event-time">{getTime(modalEvent.start)}{modalEvent.end && <span className="text-white-50"> - {getTime(modalEvent.end)}</span>}</div>
                 {modalEvent.location && <div className="h5">{modalEvent.location}</div>}
                 {modalEvent.presenter && <div className="h5">{modalEvent.presenter}</div>}
-                {event.beginner === "recommended" && <p><Badge variant="success">Recommended for Beginners</Badge></p>}
-                {event.beginner === "friendly" && <p><Badge variant="primary">Beginner-Friendly</Badge></p>}
+                {modalEvent.beginner === "recommended" && <p><Badge variant="success">Recommended for Beginners</Badge></p>}
+                {modalEvent.beginner === "friendly" && <p><Badge variant="primary">Beginner-Friendly</Badge></p>}
                 <div className="my-5"></div>
                 {modalEvent.description && <ReactMarkdown source={modalEvent.description.replace(/\n/g, "\n\n")} linkTarget="_blank" />}
                 {modalEvent.requirements && <Fragment>
