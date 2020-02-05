@@ -95,7 +95,7 @@ export default () => {
                         {isHalfWidth ? <div className="d-flex justify-content-between align-items-center w-100">
                             <h4 className="font-weight-bold w-auto flex-shrink-1">{event.name}</h4>
                             <span className="h5 pl-3 hackbca-event-time">{getTime(event.start)}{event.end && <span className="text-white-50"> - {getTime(event.end)}</span>}</span>
-                        </div> : <span><strong>{getTime(event.start)}{event.end && `-${getTime(event.end)}`}</strong> - {event.name}</span>}
+                        </div> : <span><strong>{getTime(event.start)}{event.end && `-${getTime(event.end)}`}</strong> - {event.name}{event.location && ` @ ${event.location}`}</span>}
                         {isHalfWidth && (event.description ? <ReactMarkdown source={event.description.replace(/\n/g, "\n\n")} linkTarget="_blank" /> : <p className="text-white-50"><em>No description available.</em></p>)}
                         {isHalfWidth && (event.description || event.presenter || event.requirements) && <div className="hackbca-event-scrim rounded-bottom"></div>}
                         {isHalfWidth && (event.presenter || event.requirements) && <div className="hackbca-event-details pl-3 pb-3">
