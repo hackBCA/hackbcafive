@@ -1,7 +1,7 @@
 import ContentPage from "../components/ContentPage";
 import schedule from "../public/data/schedule.yaml";
 import { useMemo, useState, Fragment } from "react";
-import { Row, Col, Modal } from "react-bootstrap";
+import { Row, Col, Modal, Badge } from "react-bootstrap";
 import { DateTime } from "luxon";
 import ReactMarkdown from "react-markdown";
 import ChevronRight from "../components/ChevronRight";
@@ -96,6 +96,8 @@ export default () => {
                             <h4 className="font-weight-bold w-auto flex-shrink-1">{event.name}</h4>
                             <span className="h5 pl-3 hackbca-event-time">{getTime(event.start)}{event.end && <span className="text-white-50"> - {getTime(event.end)}</span>}</span>
                         </div> : <span><strong>{getTime(event.start)}{event.end && `-${getTime(event.end)}`}</strong> - {event.name}{event.location && ` @ ${event.location}`}</span>}
+                        {event.beginner === "recommended" && <p><Badge variant="success">Recommended for Beginners</Badge></p>}
+                        {event.beginner === "friendly" && <p><Badge variant="primary">Beginner-Friendly</Badge></p>}
                         {isHalfWidth && (event.description ? <ReactMarkdown source={event.description.replace(/\n/g, "\n\n")} linkTarget="_blank" /> : <p className="text-white-50"><em>No description available.</em></p>)}
                         {isHalfWidth && (event.description || event.presenter || event.requirements) && <div className="hackbca-event-scrim rounded-bottom"></div>}
                         {isHalfWidth && (event.presenter || event.requirements) && <div className="hackbca-event-details pl-3 pb-3">
@@ -118,6 +120,8 @@ export default () => {
                 <div className="h5 hackbca-event-time">{getTime(modalEvent.start)}{modalEvent.end && <span className="text-white-50"> - {getTime(modalEvent.end)}</span>}</div>
                 {modalEvent.location && <div className="h5">{modalEvent.location}</div>}
                 {modalEvent.presenter && <div className="h5">{modalEvent.presenter}</div>}
+                {event.beginner === "recommended" && <p><Badge variant="success">Recommended for Beginners</Badge></p>}
+                {event.beginner === "friendly" && <p><Badge variant="primary">Beginner-Friendly</Badge></p>}
                 <div className="my-5"></div>
                 {modalEvent.description && <ReactMarkdown source={modalEvent.description.replace(/\n/g, "\n\n")} linkTarget="_blank" />}
                 {modalEvent.requirements && <Fragment>
