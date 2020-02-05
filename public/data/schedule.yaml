@@ -139,7 +139,7 @@
   type: activity
   name: Code Golf
   description: >
-    Code golf is code, but played with golf rules.
+    Code golf is writing code with golf rules.
     The aim of this game is to write the shortest code you can to solve a given task.
     Obviously, you should never purposefully obfuscate your actual code, but for fun, why not?
 
