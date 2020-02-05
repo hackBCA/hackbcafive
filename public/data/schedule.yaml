@@ -18,6 +18,7 @@
 -
   type: workshop
   name: Understanding Git/Version Control
+  presenter: Edward Feng
   description: >
     Git is a widely-used version control system, allowing for teams to collaborate and keep track of source code.
     You will learn how to use Git and best practices for dealing with version control. If you have no prior experience,
@@ -32,20 +33,22 @@
 -
   type: workshop
   name: iOS Development with SwiftUI
+  presenter: Anthony Li
   description: >
     Dive into the world of developing apps for all of Apple's platforms. Learn Swift, Apple's new fun and easy programming language,
     and use SwiftUI to build an interface for your app. We'll cover everything you need to know to build a basic iOS app - displaying
     data, adding interactivity, and querying web servers.
-    
   requirements: >
     A Mac is required. Having an iOS device (iPhone, iPad, or iPod) and an accompanying Lightning cable is highly recommended.
     
     You should also install an up-to-date version of macOS and [Xcode](https://apps.apple.com/us/app/xcode/id497799835), available for free from the Mac App Store.
   start: 2020-02-13T19:00:00-05:00
   end: 2020-02-13T21:00:00-05:00
+  location: "Room 138"
 -
   type: workshop
   name: Vue.js
+  presenter: Aidan Glickman
   description: >
     Vue is a popular JavaScript framework for building single page applications.
     Learn how to use Vue directives and routing to build websites, and how to use relevant dev tools.
@@ -54,9 +57,11 @@
     To install vue-cli, type `npm install -g @vue/cli` in a terminal, after installing node.
   start: 2020-02-13T19:00:00-05:00
   end: 2020-02-13T21:00:00-05:00
+  location: "Room 138"
 -
   type: workshop
   name: Hosting Websites with Github Pages
+  presenter: Edward Feng
   description: >
     After creating a website, you might want to have that available on the Internet for others
     to visit. This workshop will cover how to host static websites with Github Pages, and the fundamentals of Git.
@@ -69,9 +74,11 @@
   beginner: recommended
   start: 2020-02-13T20:00:00-05:00
   end: 2020-02-13T21:00:00-05:00
+  location: "Room 110"
 -
   type: workshop
   name: Intro to JavaScript
+  presenter: David Ionita & Jeremy Kurian
   description: >
     After learning how to create a basic website, why not try adding some interactivity to it?
     In this Intro to JavaScript course, learn how to use one of the fundamental building blocks of the web
@@ -81,6 +88,7 @@
   beginner: recommended
   start: 2020-02-13T21:00:00-05:00
   end: 2020-02-13T22:00:00-05:00
+  location: "Room 110"
 -
   type: workshop
   name: Intro to Circuits and Arduino

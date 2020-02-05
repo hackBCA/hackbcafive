@@ -99,7 +99,7 @@ export default () => {
                         {isHalfWidth && (event.description ? <ReactMarkdown source={event.description.replace(/\n/g, "\n\n")} linkTarget="_blank" /> : <p className="text-white-50"><em>No description available.</em></p>)}
                         {isHalfWidth && (event.description || event.presenter || event.requirements) && <div className="hackbca-event-scrim rounded-bottom"></div>}
                         {isHalfWidth && (event.presenter || event.requirements) && <div className="hackbca-event-details pl-3 pb-3">
-                            {event.presenter && <div>{event.presenter}</div>}
+                            {(event.presenter || event.location) && <div>{event.presenter}{event.location && ` @ ${event.location}`}</div>}
                             {event.requirements && <div className="text-white-50">This workshop has special requirements.</div>}
                         </div>}
                         {(event.description || event.requirements) && <div className="hackbca-event-more-link pr-3 pb-3">
