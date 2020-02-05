@@ -62,7 +62,7 @@
     to visit. This workshop will cover how to host static websites with Github Pages, and the fundamentals of Git.
 
     This is meant to follow Intro to Web, but anyone can attend.
-  reuqirements: >
+  requirements: >
     You should have [git](https://git-scm.com/) installed before this talk.
     To test, type `git --version` in a terminal.
     If you are on a Mac or Linux system, git may already be preinstalled.
