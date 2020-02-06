@@ -1,5 +1,5 @@
 export default function FooterSponsor({sponsor, href}) {
-    return <span className="footer-sponsor">
+    return <span className="footer-sponsor mr-2">
         <style jsx>{`
         .footer-sponsor :global(svg) {
             fill: #E0F0FF;

@@ -2,6 +2,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Link from "next/link";
 import FooterSponsor from "./FooterSponsor";
 import JaneStreet from "../public/sponsor/janestreet.svg";
+import Github from "../public/sponsor/github.svg";
 
 export default function Footer() {
     return <>
@@ -38,6 +39,7 @@ export default function Footer() {
                         <h5 className="font-weight-bold">Sponsors</h5>
                         <p>hackBCA is brought to you by:</p>
                         <FooterSponsor href="https://www.janestreet.com" sponsor={JaneStreet} />
+                        <FooterSponsor href="https://github.com" sponsor={Github} />
                         <p className="mt-2 mb-0"><Link href="/sponsor"><a>Want to join this list? Sponsor us!</a></Link></p>
                     </Col>
                     <Col className="pb-5" sm>
