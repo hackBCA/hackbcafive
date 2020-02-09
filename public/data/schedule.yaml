@@ -51,10 +51,9 @@
   presenter: Aidan Glickman
   description: >
     Vue is a popular JavaScript framework for building single page applications.
-    Learn how to use Vue directives and routing to build websites, and how to use relevant dev tools.
+    Learn how to use Vue to build UIs and frontend applications.
   requirements: >
-    You will need both a recent version of [node](https://nodejs.org/en/) and vue-cli installed.
-    To install vue-cli, type `npm install -g @vue/cli` in a terminal, after installing node.
+    Go ahead and check out the [workshop repo](https://github.com/hackBCA/hackBCAV-VueJS) for instructions on how to install things ahead of time.
   start: 2020-02-13T19:00:00-05:00
   end: 2020-02-13T21:00:00-05:00
   location: "Room 138"
