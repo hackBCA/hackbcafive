@@ -126,6 +126,16 @@
   end: 2020-02-14T02:30:00-05:00
 -
   type: activity
+  name: Girls Go CyberStart
+  presenter: Audrey Kim
+  description: >
+    Come hang out with other Girls Go Cyberstart contestants
+    and get help/help others with the Game Challenges!! 
+  start: 2020-02-14T02:00:00-05:00
+  end: 2020-02-14T03:00:00-05:00
+  location: "Lower Caf"
+-
+  type: activity
   name: Pitch Competition
   description: >
     Have you had enough fun trying to come up with your project idea for hackBCA?
