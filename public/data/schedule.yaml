@@ -35,6 +35,8 @@
   name: iOS Development with SwiftUI
   presenter: Anthony Li
   description: >
+    [Downloads and resources are located here.](https://hackbca.com/ios)
+
     Dive into the world of developing apps for all of Apple's platforms. Learn Swift, Apple's new fun and easy programming language,
     and use SwiftUI to build an interface for your app. We'll cover everything you need to know to build a basic iOS app - displaying
     data, adding interactivity, and querying web servers.
