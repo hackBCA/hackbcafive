@@ -80,8 +80,8 @@
   presenter: David Ionita & Jeremy Kurian
   description: >
     After learning how to create a basic website, why not try adding some interactivity to it?
-    In this Intro to JavaScript course, learn how to use one of the fundamental building blocks of the web
-    to create your own 2D platformer using the phaser.js game framework.
+    In this Intro to JavaScript course, learn how to use one of the fundamental building blocks
+    of the web to create your own breakout game.
   requirements: >
     You should have a proper text editor installed (eg. [Atom](https://atom.io/) or [VSCode](https://code.visualstudio.com/)).
   beginner: recommended
