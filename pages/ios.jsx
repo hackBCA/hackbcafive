@@ -3,11 +3,11 @@ import ContentPage from "../components/ContentPage";
 export default () => <ContentPage title="iOS Workshop">
     <h1>iOS Workshop</h1>
 
+    <h2><a href="https://github.com/hackBCA/hackBCAV-iOS">Browse the code here!</a></h2>
+
     <h2>Downloads</h2>
     <ul>
         <li><a href="https://apps.apple.com/us/app/xcode/id497799835?mt=12" target="_blank"><strong>Xcode - please download!</strong></a></li>
-        <li><a href="https://github.com/hackBCA/hackBCAV-iOS/blob/master/duck-clicker/Duck%20Clicker/Assets.xcassets/Duck.imageset/rubber_duck_PNG39.png" target="_blank">Duck image</a></li>
-        <li><a href="https://raw.githubusercontent.com/hackBCA/hackBCAV-iOS/master/duck-clicker/Duck%20Clicker/Duck.m4a" target="_blank">Duck sound</a></li>
     </ul>
 
     <h2>Resources</h2>
