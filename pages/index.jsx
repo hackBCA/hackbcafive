@@ -1,7 +1,7 @@
 import Page from "../components/Page";
 import { Button } from "react-bootstrap";
 import { faQuestionCircle, faUserCircle } from "@fortawesome/free-regular-svg-icons";
-import { faStar, faList, faTrophy } from "@fortawesome/free-solid-svg-icons";
+import { faStar, faList, faTrophy, faGolfBall } from "@fortawesome/free-solid-svg-icons";
 import { Fragment } from "react";
 import ChevronRight from "../components/ChevronRight";
 import CircleIcon from "../components/CircleIcon";
@@ -138,6 +138,13 @@ export default function Index() {
                         <Link href="/schedule"><a className="btn btn-primary">View schedule <ChevronRight /></a></Link>
                     </p>
                     <ul className="navigation-ul fa-ul">
+                        <li>
+                            <Link href="/golf">
+                                <a>
+                                    <CircleIcon icon={faGolfBall} listItem /> Code Golf <ChevronRight />
+                                </a>
+                            </Link>
+                        </li>
                         <li>
                             <Link href="/sponsor">
                                 <a>
