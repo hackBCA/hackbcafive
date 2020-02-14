@@ -1,7 +1,7 @@
 import Page from "../components/Page";
-import { Button } from "react-bootstrap";
+import { Button, Alert } from "react-bootstrap";
 import { faQuestionCircle, faUserCircle } from "@fortawesome/free-regular-svg-icons";
-import { faStar, faList, faTrophy, faGolfBall } from "@fortawesome/free-solid-svg-icons";
+import { faStar, faList, faTrophy, faGolfBall, faMobile } from "@fortawesome/free-solid-svg-icons";
 import { Fragment } from "react";
 import ChevronRight from "../components/ChevronRight";
 import CircleIcon from "../components/CircleIcon";
@@ -143,14 +143,19 @@ export default function Index() {
                         <Link href="/whatis"><a className="btn btn-dark mr-3">What's hackBCA? <ChevronRight /></a></Link>
                         <Link href="/schedule"><a className="btn btn-primary">View schedule <ChevronRight /></a></Link>
                     </p>
-                    <div class="alert alert-warning">
-                        Submit your project by 11 AM on <a href="https://hackbca-v.devpost.com/">Devpost</a>!
-                    </div>
+                    <Alert variant="primary">hackBCA is complete. Thanks for joining us!</Alert>
                     <ul className="navigation-ul fa-ul">
                         <li>
                             <Link href="/golf">
                                 <a>
                                     <CircleIcon icon={faGolfBall} listItem /> Code Golf <ChevronRight />
+                                </a>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="/ios">
+                                <a>
+                                    <CircleIcon icon={faMobile} listItem /> iOS Resources <ChevronRight />
                                 </a>
                             </Link>
                         </li>
