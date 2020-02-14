@@ -88,6 +88,12 @@ export default function Index() {
                 transform: translateX(-50%);
             }
 
+            .alert-warning {
+                color: #856404;
+                background-color: #fff3cd;
+                border-color: #ffeeba;
+            }
+
             @media (max-width: 920px) {
                 .hero-header h1 {
                     font-size: 8rem;
@@ -137,6 +143,9 @@ export default function Index() {
                         <Link href="/whatis"><a className="btn btn-dark mr-3">What's hackBCA? <ChevronRight /></a></Link>
                         <Link href="/schedule"><a className="btn btn-primary">View schedule <ChevronRight /></a></Link>
                     </p>
+                    <div class="alert alert-warning">
+                        Submit your project by 11 AM on <a href="https://hackbca-v.devpost.com/">Devpost</a>!
+                    </div>
                     <ul className="navigation-ul fa-ul">
                         <li>
                             <Link href="/golf">
