@@ -8,6 +8,7 @@ export default () => <ContentPage title="iOS Workshop">
     <h2>Downloads</h2>
     <ul>
         <li><a href="https://apps.apple.com/us/app/xcode/id497799835?mt=12" target="_blank"><strong>Xcode - please download!</strong></a></li>
+        <li><a href="https://hackbca.com/slides/ios.pdf">Workshop slides</a></li>
     </ul>
 
     <h2>Resources</h2>
