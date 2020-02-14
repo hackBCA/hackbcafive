@@ -10,9 +10,7 @@ function getTime(date) {
     return DateTime.fromJSDate(date).setZone("America/New_York").toFormat("HH:mm");
 }
 
-export default () => {
-    const date = new Date();
-
+function Schedule({date}) {
     const [modalEvent, setModalEvent] = useState(null);
 
     const sortedSchedule = useMemo(() => schedule.sort((a, b) => a.start - b.start), [schedule]);
@@ -138,3 +136,9 @@ export default () => {
         </Modal>
     </ContentPage>
 }
+
+Schedule.getInitialProps = () => {
+    return {date: new Date()};
+};
+
+export default Schedule;
