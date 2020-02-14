@@ -11,6 +11,8 @@ function getTime(date) {
 }
 
 export default () => {
+    const date = new Date();
+
     const [modalEvent, setModalEvent] = useState(null);
 
     const sortedSchedule = useMemo(() => schedule.sort((a, b) => a.start - b.start), [schedule]);
@@ -79,6 +81,10 @@ export default () => {
         :global(.modal-body a), :global(.modal-body a:link) {
             color: #70BBFF;
         }
+
+        :global(.hackbca-event-past) {
+            opacity: 0.4;
+        }
         `}</style>
         <h1>Schedule</h1>
         <Row>
@@ -87,7 +93,7 @@ export default () => {
                 return <Col
                     xs={12}
                     md={isHalfWidth ? 6 : 12}
-                    className={`my-2 px-2 ${isHalfWidth ? "hackbca-event-half-width" : ""}`}
+                    className={`my-2 px-2 ${isHalfWidth ? "hackbca-event-half-width" : ""} ${date > (event.end || event.start) ? "hackbca-event-past" : ""}`}
                     key={index}
                 >
                     <div className="rounded shadow hackbca-event p-3 w-100 h-100">

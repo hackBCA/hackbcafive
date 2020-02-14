@@ -138,6 +138,13 @@
   location: "Lower Caf"
 -
   type: activity
+  name: Push-Up Contest
+  description: >
+    Voluntary teambuilding exercise... literally. All for fun.
+  start: 2020-02-14T03:00:00-05:00
+  end: 2020-02-14T03:15:00-05:00
+-
+  type: activity
   name: Pitch Competition
   description: >
     Have you had enough fun trying to come up with your project idea for hackBCA?
